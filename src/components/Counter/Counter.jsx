@@ -11,7 +11,7 @@ function Counter() {
 
   return (
     <>
-      <p>Counter: [{count == 0 ? "-" : count}]</p>
+      <p>Counter: [{count === 0 ? "-" : count}]</p>
       <button onClick={increment}>Increment</button>
       <button onClick={reset}>Reset</button>
     </>
